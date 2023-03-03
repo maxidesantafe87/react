@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flork Pensativo</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1 class="centrar">Mmmm... Ayuda a Flork a decidir que quiere...</h1>
+    <div class="container">
+        <div id="flork" class="flork">
+            <div class="contenedor_boton">
+                <div class="contenedor_imagen">
+                    <div id="baile_boton" class="baile_boton" onclick="controlarFlork_baile()"></div>
+                    <p class="texto_imagen">El tubo</p>
+                </div>
+                <div class="contenedor_imagen">
+                    <div id="comer_boton" class="comer_boton" onclick="controlarFlork_comer()"></div>
+                    <p class="texto_imagen">Un Chocolate</p>
+                </div>
+                <div class="contenedor_imagen">
+                    <div id="viajar_boton" class="viajar_boton" onclick="controlarFlork_viajar()"></div>
+                    <p class="texto_imagen">Viajar (guiño, guiño)</p>
+                </div>
+            
+            </div>
+         
+
+
+
+            <audio src="./sound/baile.mp3" id="flork_encendido" type="audio/mpeg" loop></audio>
+            
+            
+            <audio src="./sound/viajar.mp3" id="sonido_viajar" type="audio/mpeg" loop></audio>
+
+            <audio src="./sound/comer.mp3" id="sonido_comer" type="audio/mpeg" loop></audio>
+            
+
+            <script src="./js/funciones.js"></script>
+            
+</body>
+
+</html>

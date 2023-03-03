@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+
+  }
+
+.centrar{
+    text-align: center;
+}
+
+h1.centrar {
+    font-size: 4em; /* tamaño 2 veces más grande */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* sombra */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* fuente parecida a memes */
+  }
+
+.flork {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform:translate(-50%, -50%);
+    min-width: 700px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/paloyflork.jpg);
+    border: 2px solid red;
+    box-shadow: 0 0 20px 10px rgba(82, 78, 78, 0.5);
+}
+
+.flork:hover {
+    border: 2px solid rgb(119, 255, 0);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+}
+.flork_normal {
+    background-image: url(../img/paloyflork.jpg);
+}
+
+.flork_activo {
+    background-image: url(../img/baile.gif);
+}
+
+.flork_activo_comer {
+    background-image: url(../img/comer.gif);
+}
+
+.flork_activo_viajar {
+    background-image: url(../img/viaje.gif);
+}
+
+.contenedor_boton {
+    margin: 75% auto;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white; /* Establece un fondo sólido para el contenedor */
+}
+
+.baile_boton {
+    background-image: url(../img/palo.png);
+    width: 100%;
+    height: 100px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-left: -25px;
+    
+}
+
+.baile_boton:hover {
+    border: 2px solid rgb(119, 255, 0);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.comer_boton {
+    background-image: url(../img/chocolate.png);
+    width: 100%;
+    height: 100px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin: 0 1%;
+}
+
+.comer_boton:hover {
+    border: 2px solid rgb(119, 255, 0);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.viajar_boton {
+    background-image: url(../img/feliz.png);
+    width: 100%;
+    height: 100px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.viajar_boton:hover {
+    border: 2px solid rgb(119, 255, 0);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor_boton p {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
